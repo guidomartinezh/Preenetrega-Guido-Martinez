@@ -1,0 +1,28 @@
+#padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    height: 800px;
+}
+
+
+
+#hijo_uno {
+    height: 200px;
+    width: 20%;
+    background-color: rgb(116, 197, 24);
+}
+
+#hijo_dos {
+    height: 200px;
+    width: 20%;
+    background-color: rgb(197, 24, 24);
+}
+
+#hijo_tres {
+    height: 200px;
+    width: 20%;
+    background-color: rgb(197, 142, 24);
+}

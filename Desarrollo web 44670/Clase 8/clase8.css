@@ -1,0 +1,39 @@
+div{
+
+    width: 800px;
+    height: 300px;
+    background-color: aqua;
+    transition: 3s;
+    
+} 
+
+
+div:hover{
+
+    transform: translate(300px, 250px);
+       
+}
+
+@keyframes colores{
+
+0%{
+    background-color: red;
+}
+
+25%{
+    background-color: blue;
+}
+
+50%{
+    background-color: blueviolet;
+}
+
+}
+
+.cajauno{
+    width: 400px;
+    height: 400px;
+    animation-name: colores;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
