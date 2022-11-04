@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+       
+}
+
+.titulo{
+    color: white;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    font-size: 35px;
+}
+
+
+main{
+    background-color: black;
+    height: 800px;
+}
+
+footer{
+    background-color: white;
+    position: relative
+}
+
+.firmafooter{
+    color: rgba(45, 45, 45, 0.818);
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*CONTACTO*/
+
+.mb-3{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-style:normal
+    font-size: large
+
+}
+
+.botoncontacto{
+    width: 15%;
+    text-align: center;
+    object-position: 50%;
+}
+
+.divpadre{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+
+#imagenmain{
+    width: 100%;
+    height: 600px;
+    object-fit: fill;
+}
+
+.parrafomain{
+    font-size: x-large;
+    max-height: 600%;
+    max-width: 100%;
+}
+
+.mainindex{
+    display: grid;
+    grid-template-rows: 20fr 20fr;
+    grid-row-gap: 15px;
+    height: 100%;
+}
+
+.reelmain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#grilla{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75px 100px 1000px 20px;
+    grid-template-areas: "header"
+                         "nav"
+                         "main"
+                         "footer"                   
+}
+
+#gridmain{
+    display: grid;
+}
+
+#navnosotros{
+    display:flex
+    flex-direction: column
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.mainnosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionmain{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 10% 10% 10%;
+    background-color: black;   
+    justify-content: center;   
+    
+}
+
+image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgnosotros{
+    width: 300%;
+    height: 500px;
+    object-fit:fill
+}
+
+.titulonosotros{
+    color: white;
+    font-size:x-large
+}
+
+
+#navindex{
+    display:flex
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-evenly
+}
+
+.animate__animated.animate__pulse{
+    --animate-duration: 500ms;
+    color: white;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+
+@media only screen and (max-width:600px){
+    #navindex{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        height: 180px;
+        font-size: x-small
+    
+    }
+
+    .divpadre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 20%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+
+        
+    }
+
+    .titulo{
+        color: white;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        height: 50px;
+        font-size:large;
+    }
+
+        #imagenmain{
+            width: 100%;
+            height: 800px;
+            object-fit: fill;
+        }
+
+    
+
+        h2{
+            font-size:small;
+            margin: 10%;
+
+        }
+
+        .mainindex{
+            min-height: calc(100vh - 50px);
+        }
+
+        .parrafomain{
+            font-size: xx-small
+            height: 30%;
+        }
+
+
+        .firmafooter{
+            height: 100%;
+            object-position: 0%;
+        }
+
+}
+
+
+
+    <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+  </nav>
+  
+  <!-- As a heading -->
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Navbar</span>
+    </div>
+  </nav>
